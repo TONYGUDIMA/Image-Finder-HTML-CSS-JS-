@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.gallery {
+ padding: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-grow: 4;
+ align-items: center;
+ justify-content: space-between;
+}
+
+#search-form {
+  height: 90px;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #3c6ab5;
+}
+input {
+  width: 400px;
+  height: 26px;
+  border-radius: 5px;
+  padding-left: 10px;
+  position: relative;
+}
+input:focus-visible{
+  outline: none;
+}
+button {
+  height: 26px;
+  width: 60px;
+}
+.is-hidden {
+  visibility: hidden;
+}
+.photo-card {
+  width: 230px;
+  height: 300px;
+}
+.load-more {
+  position: static;
+  height: 36px;
+  width: 100vw;
+  display: block;
+  margin: 0 auto 10;
+}
+
